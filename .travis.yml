@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: hQGxzpcxIMe+HvNieM/gwuWtEl03hWfgbPxc75RJhmhhRi5pr3f995BU8txXsQcifSjzWXR1M53X/jlHab1pEGICbE0gNxtKx5lBMf2T0516hfbm7eF8IiZUXW/U4W7fgmebZfD6hG7PQlOu6ZlbNyTUWl2AkQguDLX63yxPdESP9vqxwIfgXodeYEwtEmlJ1aYg/Pz73ZUdyefs0y+T6zfrJQujbM5e3xL0wdR+mdmXoxW7Q9pMMOSDSCzc7y9h9GwVOI6skBqNOc0c5J1d7c8NXLjgqOqSJQZHmjSNJFBjsC5RD/rTjGqD9HjlZ3BiiVFL+jssizi1ftVTer8Mk2z36/5XWr9rjPbT6h/cOj6bd0LbMmmDFimZz1OY0cUD//WIFNQmZvJdqsqFyEI15kttyjnoPA4mZ93+YtcnlVhTBhupJre70cTbCgpyaXhg9+IoFWmjbgoc3KkYqwxHxWaANUJo3NRCwFHAoaGT3WQBIb241mkx3KzxE3qMlu+YWRodyCEQ3r+e/GgqbfgxVl+51rDs+liM/hyDdd8zt5msNxQ48epQnexR9aJRwPJedPs9VUR2/xIIFF8N9qzGh2oS0jNetwJktbaBR7XyCCvYDoX/KeGk9JnkW/mAHjIt7JspnTKWDp0WcAZR2MRtnB/ZCHIU4bLmHt8IWZW8MXo=
+  app: damp-beach-91230
+  on:
+    repo: naet88/node-shopping-list-integration-tests
